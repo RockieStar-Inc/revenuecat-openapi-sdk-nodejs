@@ -4,6 +4,12 @@ RevenueCat API generated from
 
 https://www.revenuecat.com/docs/redocusaurus/plugin-redoc-0.yaml
 
+## Examples
+
+Can be found at `examples/fetch-subscribers`
+
+## Development
+
 To install dependencies:
 
 ```bash
