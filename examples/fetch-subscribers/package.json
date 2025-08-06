@@ -1,0 +1,23 @@
+{
+  "name": "revenuecat-example-fetch-subscribers",
+  "version": "1.0.0",
+  "description": "Example of using RevenueCat SDK to fetch subscriber list",
+  "type": "module",
+  "main": "index.ts",
+  "scripts": {
+    "start": "bun index.ts",
+    "dev": "bun --watch index.ts",
+    "typecheck": "bun tsc --noEmit"
+  },
+  "dependencies": {
+    "revenuecat-openapi-sdk-nodejs": "file:../..",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^24.2.0",
+    "typescript": "^5.9.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
