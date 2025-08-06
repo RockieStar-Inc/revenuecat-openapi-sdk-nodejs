@@ -2,6 +2,10 @@
   "name": "revenuecat-openapi-sdk-nodejs",
   "version": "0.0.1",
   "description": "RevenueCat OpenAPI SDK for Node.js",
+  "repository": {
+    "type": "git",
+    "url": "git remote add origin https://github.com/RockieStar-Inc/revenuecat-openapi-sdk-nodejs.git"
+  },
   "type": "module",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
