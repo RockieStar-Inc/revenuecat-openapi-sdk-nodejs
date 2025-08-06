@@ -1,6 +1,11 @@
-# Fetch Subscribers Example
+# RevenueCat SDK Examples
 
-This example demonstrates how to use the RevenueCat OpenAPI SDK to fetch a list of subscribers/customers from your RevenueCat project.
+This directory contains examples demonstrating how to use the RevenueCat OpenAPI SDK to manage and analyze your subscription data.
+
+## Examples
+
+1. **index.ts** - Fetch all subscribers/customers
+2. **active-subscriptions.ts** - Fetch and analyze active subscriptions
 
 ## Setup
 
