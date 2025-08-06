@@ -1,11 +1,44 @@
 {
   "name": "revenuecat-openapi-sdk-nodejs",
-  "module": "index.ts",
+  "version": "0.0.1",
+  "description": "RevenueCat OpenAPI SDK for Node.js",
   "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "prepublishOnly": "bun run build"
+  },
+  "keywords": [
+    "revenuecat",
+    "openapi",
+    "sdk",
+    "nodejs",
+    "typescript"
+  ],
+  "author": "",
+  "license": "MIT",
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "@types/node": "^24.2.0",
+    "tsup": "^8.5.0"
   },
   "peerDependencies": {
-    "typescript": "^5"
+    "typescript": "^5.9.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }

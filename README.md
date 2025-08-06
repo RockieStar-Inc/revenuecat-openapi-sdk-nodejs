@@ -1,5 +1,9 @@
 # revenuecat-openapi-sdk-nodejs
 
+RevenueCat API generated from
+
+https://www.revenuecat.com/docs/redocusaurus/plugin-redoc-0.yaml
+
 To install dependencies:
 
 ```bash
