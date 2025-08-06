@@ -23,7 +23,9 @@
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
-    "prepublishOnly": "bun run build"
+    "prepublishOnly": "bun run build",
+    "deploy": "bun run build && npm publish",
+    "deploy:dry": "bun run build && npm publish --dry-run"
   },
   "keywords": [
     "revenuecat",
