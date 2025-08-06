@@ -43,6 +43,7 @@ npm run active
 
 ## Features Demonstrated
 
+### index.ts (All Subscribers)
 - Initializing the SDK with API credentials
 - Fetching a paginated list of customers/subscribers
 - Displaying customer information including:
@@ -52,6 +53,22 @@ npm run active
   - Last seen date
   - Active entitlements
 - Handling pagination for large subscriber lists
+
+### active-subscriptions.ts (Active Subscriptions Analysis)
+- Fetching and filtering active subscriptions
+- Subscription metrics and analytics:
+  - Total active subscriptions
+  - Lifetime purchases
+  - Expired subscriptions
+- Detailed subscription information:
+  - Product identifiers
+  - Expiration dates and days remaining
+  - Auto-renewal status
+  - Store information (App Store, Google Play, etc.)
+- Business metrics:
+  - Subscriptions grouped by product
+  - Renewal status breakdown
+  - Predicted churn rate calculation
 
 ## API Reference
 
