@@ -25,12 +25,20 @@ Then edit `.env` and add your:
 - `REVENUECAT_API_KEY`: Your RevenueCat Private API key (found in Project Settings > API Keys)
 - `REVENUECAT_PROJECT_ID`: Your RevenueCat Project ID
 
-## Running the Example
+## Running the Examples
 
+### Fetch All Subscribers
 ```bash
-npm start
-# or
 bun start
+# or
+npm start
+```
+
+### Fetch Active Subscriptions
+```bash
+bun run active
+# or
+npm run active
 ```
 
 ## Features Demonstrated
