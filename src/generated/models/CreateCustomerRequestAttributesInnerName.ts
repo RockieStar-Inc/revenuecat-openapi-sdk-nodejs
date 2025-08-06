@@ -12,6 +12,8 @@
  * Do not edit the class manually.
  */
 
+import type { CustomerAttributeReservedName } from './CustomerAttributeReservedName';
+
 /**
  * @type CreateCustomerRequestAttributesInnerName
  * The name of the attribute
